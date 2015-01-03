@@ -1,0 +1,14 @@
+prefix=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/armeabi-v7a-neon
+exec_prefix=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/armeabi-v7a-neon
+libdir=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/armeabi-v7a-neon/lib
+includedir=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/armeabi-v7a-neon/include/freetype2
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 17.3.11
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz
+Cflags: -I${includedir}

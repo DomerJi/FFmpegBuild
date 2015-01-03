@@ -1,0 +1,14 @@
+prefix=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/x86
+exec_prefix=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/x86
+libdir=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/x86/lib
+includedir=/home/moming/ffmpeg/androidffmpeg/FFmpegLibrary/jni/freetype2/../ffmpeg-build/x86/include/freetype2
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 17.3.11
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz
+Cflags: -I${includedir}
